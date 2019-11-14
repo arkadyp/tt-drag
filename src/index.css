@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  margin: 400px 32px;
+}
+
+.timeline-conatiner {
+  height: 400px;
+  border: 1px solid black;
+  width: 100%;
+  overflow: auto;
+  white-space: nowrap;
+  position: relative;
+}
+
+.x-axis-container {
+  position: absolute;
+  bottom: 0;
+}
+
+.baseline-unit {
+  display: inline-block;
+  height: 20px;
+  width: 75px;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.timeline-item {
+  position: absolute;
+  background: blue;
+  color: white;
+  height: 50px;
+  border: 1px solid black;
+};
